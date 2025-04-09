@@ -8,38 +8,37 @@ public class operadores2 {
     public static void main (String[]args){
         //A linha de código cria um objeto Scanner para ler dados da entrada padrão
         Scanner entrada = new Scanner (System.in);
-        //declarando a variável
+        //declarando as variáveis
         int num1, num2, num3, num4, num5, num6;
-        
-        //adicionando um valor a uma variável
-        System.out.print("Digite o primeiro número: ");
+
+        //solicitando e lendo o primeiro par de números para soma
+        System.out.print("Digite o primeiro número para soma: ");
         num1 = entrada.nextInt();
-        //adicionando um valor a uma variável
-        System.out.print("Digite o segundo número: ");
-        num2 = entrada.nextInt();      
-        //somando as variáveis
+        System.out.print("Digite o segundo número para soma: ");
+        num2 = entrada.nextInt();
+        //somando as variáveis e exibindo o resultado
         System.out.println(num1+" + "+num2+" = "+(num1+num2));
         //pulando linha
         System.out.println();
-        
-        //adicionando um valor a uma variável
-        System.out.print("Digite o primeiro número: ");
+
+        //solicitando e lendo o primeiro par de números para subtração
+        System.out.print("Digite o primeiro número para subtração: ");
         num3 = entrada.nextInt();
-        //adicionando um valor a uma variável
-        System.out.print("Digite o segundo número: ");
-        num4 = entrada.nextInt(); 
-        //subitraindo as variáveis
+        System.out.print("Digite o segundo número para subtração: ");
+        num4 = entrada.nextInt();
+        //subtraindo as variáveis e exibindo o resultado
         System.out.println(num3+" - "+num4+" = "+(num3-num4));
         //pulando linha
         System.out.println();
-        
-        //adicionando um valor a uma variável
-        System.out.print("Digite o primeiro número: ");
+
+        //solicitando e lendo o primeiro par de números para multiplicação
+        System.out.print("Digite o primeiro número para multiplicação: ");
         num5 = entrada.nextInt();
-        //adicionando um valor a uma variável
-        System.out.print("Digite o segundo número: ");
+        System.out.print("Digite o segundo número para multiplicação: ");
         num6 = entrada.nextInt();
-        //multiplicando as variáveis
+        //multiplicando as variáveis e exibindo o resultado
         System.out.println(num5+" X "+num6+" = "+(num5*num6));
+
+        entrada.close(); // Boa prática: fechar o Scanner
     }
 }
