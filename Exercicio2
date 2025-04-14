@@ -1,0 +1,29 @@
+public class Biblioteca {
+    
+    String endereco, departamento, tipoDeLivro, linguaDoLuivro, midia, autor, nacionalidade, editora, matricula, curso;
+    int idade, historico, anoDePublicacao;
+    
+    public class professor{
+        void consultarDepartamento(){
+            
+        }
+    }
+ 
+    public class aluno{
+       void consultarMatricula(){
+        
+    }
+    }
+    
+    public class funcionario{
+        void cadastrarLivro(){
+            
+        }
+        void cadastrarPessoa(){
+            
+        }
+        void verificarDepartamento(){
+            
+        }
+    }
+}
