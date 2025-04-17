@@ -1,0 +1,49 @@
+public class Pessoas{
+        String nome;
+        int idade;
+        double peso;
+        boolean estaAcordado;
+    
+        void dizerBomDia(){
+        
+        }
+        void andar(){
+        
+        }
+        void dormir(){
+        
+        }
+}
+
+public class Aluno{
+    String nome;
+    int idade;
+    boolean estarMatriculado;
+    
+    void verificarMatricula(){
+        
+    }
+    void notas(){
+        
+    }
+    void media(){
+        
+    }
+}
+
+public class Professor {
+    String nome;
+    String formacao;
+    int idade;
+    
+    
+    void formacao(){
+        
+    }
+    void lancarNotas(){
+        
+    }
+    void fazerProvas(){
+        
+    }
+}
