@@ -1,4 +1,4 @@
-package Estudando;
+package POO;
 
 public class carrotestar {
     public static void main(String[] args) {

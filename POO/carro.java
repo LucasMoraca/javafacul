@@ -1,4 +1,4 @@
-package Estudando;
+package POO;
 
 public class carro {
     
